@@ -39,7 +39,7 @@ You should see the WordPress landing page and it will ask you to set up your acc
 
 After you set that up, log in and go to the WordPress dashboard by going to:
 
-`localhosst:8080/admin`
+`localhost:8080/admin`
 
 From the left hand panel, go to:
 
