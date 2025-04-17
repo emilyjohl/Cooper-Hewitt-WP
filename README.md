@@ -12,14 +12,14 @@ Your project should also meet the following criteria:
 
 1. The page should be responsive to different screen sizes and accessible for users who need assistive technologies for browsing pages.
 
-See WCAG 2.1 standards here:
-
-https://www.w3.org/TR/WCAG21/
+  See WCAG 2.1 standards here:
+  
+  https://www.w3.org/TR/WCAG21/
 
 2. The page is consistent with [Cooper Hewitt's main website](https://www.cooperhewitt.org/) but please feel free to add your own creative touch or design ideas.
-
-You can find the design elements and style guide here:
-https://www.dropbox.com/scl/fo/o3a04xzhdrdo6fpwd9pwk/ALThumSEKYKRT0oJaxl4sDA?rlkey=ljruvyossmxxu8zjg2ik887nu&e=1&dl=0
+  
+  You can find the design elements and style guide here:
+  https://www.dropbox.com/scl/fo/o3a04xzhdrdo6fpwd9pwk/ALThumSEKYKRT0oJaxl4sDA?rlkey=ljruvyossmxxu8zjg2ik887nu&e=1&dl=0
 
 3. Please use git for your version control and be ready to show your commits.
 
