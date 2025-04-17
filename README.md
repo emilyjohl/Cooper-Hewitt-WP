@@ -29,7 +29,7 @@ Please clone this repository to your local machine. You will need Docker to run 
 
 https://www.docker.com/
 
-Please download the content from the "docker-compse.yml" file from the Dropbox link that shared with you (after you provide the preferred email address).
+Please download the content from the "docker-compse.yml" file from the Dropbox link that is shared with you (after you provide your preferred email address).
 
 After you have all the components, copy "docker-compse.yml" to the root folder of the cloned repository. In the repository, run "docker-compose up -d". It should start to install the docker images for WordPress and the database for running the application. After that is done, go to:
 
