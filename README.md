@@ -29,9 +29,9 @@ Please clone this repository to your local machine. You will need Docker to run 
 
 https://www.docker.com/
 
-Please download the content from the "docker-compse.yml" file from the Dropbox link that is shared with you (after you provide your preferred email address).
+Please download the content from the `docker-compse.yml` file from the Dropbox link that is shared with you (after you provide your preferred email address).
 
-After you have all the components, copy "docker-compse.yml" to the root folder of the cloned repository. In the repository, run "docker-compose up -d". It should start to install the docker images for WordPress and the database for running the application. After that is done, go to:
+After you have all the components, copy the `docker-compse.yml` file to the root folder of the cloned repository. In the repository, run `docker-compose up -d`. It should start to install the docker images for WordPress and the database for running the application. After that is done, go to:
 
 `localhost:8080`
 
@@ -43,6 +43,6 @@ After you set that up, log in and go to the WordPress dashboard by going to:
 
 From the left hand panel, go to:
 
-Tools -> Import -> Import WordPress and then choose the file shared with you from the Dropbox folder, "cooperhewittcodetestsite.WordPress.2024-07-11.xml"
+Tools -> Import -> Import WordPress and then choose the file shared with you from the Dropbox folder, `cooperhewittcodetestsite.WordPress.2024-07-11.xml`
 
 Now you should be ready to go!
