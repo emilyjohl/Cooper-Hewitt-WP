@@ -41,8 +41,4 @@ After you set that up, log in and go to the WordPress dashboard by going to:
 
 `localhost:8080/admin`
 
-From the left hand panel, go to:
-
-Tools -> Import -> Import WordPress and then choose the file shared with you from the Dropbox folder, `cooperhewittcodetestsite.WordPress.2024-07-11.xml`
-
 Now you should be ready to go!
