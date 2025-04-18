@@ -2,7 +2,7 @@ This is the code assessment for the Jr. Developer role with the Cooper Hewitt Di
 
 # Overview
 
-Create a search page in the CooperHewitt WordPress theme that presents a form that accepts 1-3 query fields and sends a request to Smithsonian's [Open Access API](https://edan.si.edu/openaccess/apidocs/). Display the results or any error messages. 
+Create a search page in the CooperHewitt WordPress theme that presents a form that accepts 1-3 query fields and sends a request to Smithsonian's [Open Access API](https://edan.si.edu/openaccess/apidocs/) or [EDAN](https://edan.si.edu/openaccess/docs/), Smithsonian's Enterprise Data Access Network. The request can be sent to either or both. Display the results or any error messages. 
 
 Read more on Smithsonian Open Access [here](https://www.si.edu/openaccess) and Open Access Developer Tools [here](https://www.si.edu/openaccess/devtools).
 
@@ -31,7 +31,7 @@ https://www.docker.com/
 
 Please download the content from the `docker-compse.yml` file from the Dropbox link that is shared with you (after you provide your preferred email address).
 
-After you have all the components, copy the `docker-compse.yml` file to the root folder of the cloned repository. In the repository, run `docker-compose up -d`. It should start to install the docker images for WordPress and the database for running the application. After that is done, go to:
+After you have all the components, copy the `docker-compse.yml` file to the root folder of the cloned repository. In the repository, run `docker compose up -d`. It should start to install the docker images for WordPress and the database for running the application. After that is done, go to:
 
 `localhost:8080`
 
