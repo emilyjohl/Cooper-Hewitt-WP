@@ -1,0 +1,81 @@
+{
+  "id": "sro-1663946979444-1663946995870-1",
+  "title": "Leonardo da Vinci and Flight",
+  "unitCode": "SLA_SRO",
+  "type": "edanmdm",
+  "url": "edanmdm:slasro_117448",
+  "content": {
+    "freetext": {
+      "date": [
+        {
+          "label": "Year",
+          "content": "2013"
+        }
+      ],
+      "name": [
+        {
+          "label": "Author",
+          "content": "Jakab, Peter L."
+        }
+      ],
+      "notes": [
+        {
+          "label": "Citation",
+          "content": "Jakab, Peter L. 2013. \"<a href=\"http://blog.nasm.si.edu/exhibitions/leonardo-da-vinci-and-flight/\">Leonardo da Vinci and Flight</a>.\" <em>AIRSPACE BLOG: Behind the Scenes at the National Air and Space Museum</em> Washington, DC: Smithsonian National Air and Space Museum. Aug 22, 2013. <a href=\"http://blog.nasm.si.edu/exhibitions/leonardo-da-vinci-and-flight/\">http://blog.nasm.si.edu/exhibitions/leonardo-da-vinci-and-flight/</a>."
+        }
+      ],
+      "dataSource": [
+        {
+          "label": "Data source",
+          "content": "Smithsonian Libraries and Archives"
+        }
+      ],
+      "identifier": [
+        {
+          "label": "Identifier",
+          "content": "117448"
+        }
+      ],
+      "objectType": [
+        {
+          "label": "Object Type",
+          "content": "Smithsonian staff publication"
+        }
+      ]
+    },
+    "indexedStructured": {
+      "date": [
+        "2010s"
+      ],
+      "name": [
+        {
+          "type": "author",
+          "content": "Jakab, Peter L."
+        }
+      ],
+      "object_type": [
+        "Blog",
+        "Smithsonian staff publications"
+      ]
+    },
+    "descriptiveNonRepeating": {
+      "title": {
+        "label": "Title",
+        "content": "Leonardo da Vinci and Flight"
+      },
+      "record_ID": "slasro_117448",
+      "unit_code": "SLA_SRO",
+      "title_sort": "LEONARDO DA VINCI AND FLIGHT",
+      "data_source": "Smithsonian Libraries and Archives",
+      "record_link": "http://blog.nasm.si.edu/exhibitions/leonardo-da-vinci-and-flight/",
+      "metadata_usage": {
+        "access": "CC0"
+      }
+    }
+  },
+  "hash": "866f0dc22cce14cd2cae0e0d88fa91f3e3a1a25b",
+  "docSignature": "30d4669cde2d74fdd1bc01aa25bba6c9",
+  "timestamp": "1663956050",
+  "lastTimeUpdated": "1671011753",
+  "version": "1671011689"
+}

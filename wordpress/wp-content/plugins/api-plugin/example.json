@@ -1,0 +1,1109 @@
+{
+  "status": 200,
+  "responseCode": 1,
+  "response": {
+    "rows": [
+      {
+        "id": "sro-1663946979444-1663946995870-1",
+        "title": "Leonardo da Vinci and Flight",
+        "unitCode": "SLA_SRO",
+        "type": "edanmdm",
+        "url": "edanmdm:slasro_117448",
+        "content": {
+          "freetext": {
+            "date": [
+              {
+                "label": "Year",
+                "content": "2013"
+              }
+            ],
+            "name": [
+              {
+                "label": "Author",
+                "content": "Jakab, Peter L."
+              }
+            ],
+            "notes": [
+              {
+                "label": "Citation",
+                "content": "Jakab, Peter L. 2013. \"<a href=\"http://blog.nasm.si.edu/exhibitions/leonardo-da-vinci-and-flight/\">Leonardo da Vinci and Flight</a>.\" <em>AIRSPACE BLOG: Behind the Scenes at the National Air and Space Museum</em> Washington, DC: Smithsonian National Air and Space Museum. Aug 22, 2013. <a href=\"http://blog.nasm.si.edu/exhibitions/leonardo-da-vinci-and-flight/\">http://blog.nasm.si.edu/exhibitions/leonardo-da-vinci-and-flight/</a>."
+              }
+            ],
+            "dataSource": [
+              {
+                "label": "Data source",
+                "content": "Smithsonian Libraries and Archives"
+              }
+            ],
+            "identifier": [
+              {
+                "label": "Identifier",
+                "content": "117448"
+              }
+            ],
+            "objectType": [
+              {
+                "label": "Object Type",
+                "content": "Smithsonian staff publication"
+              }
+            ]
+          },
+          "indexedStructured": {
+            "date": [
+              "2010s"
+            ],
+            "name": [
+              {
+                "type": "author",
+                "content": "Jakab, Peter L."
+              }
+            ],
+            "object_type": [
+              "Blog",
+              "Smithsonian staff publications"
+            ]
+          },
+          "descriptiveNonRepeating": {
+            "title": {
+              "label": "Title",
+              "content": "Leonardo da Vinci and Flight"
+            },
+            "record_ID": "slasro_117448",
+            "unit_code": "SLA_SRO",
+            "title_sort": "LEONARDO DA VINCI AND FLIGHT",
+            "data_source": "Smithsonian Libraries and Archives",
+            "record_link": "http://blog.nasm.si.edu/exhibitions/leonardo-da-vinci-and-flight/",
+            "metadata_usage": {
+              "access": "CC0"
+            }
+          }
+        },
+        "hash": "866f0dc22cce14cd2cae0e0d88fa91f3e3a1a25b",
+        "docSignature": "30d4669cde2d74fdd1bc01aa25bba6c9",
+        "timestamp": "1663956050",
+        "lastTimeUpdated": "1671011753",
+        "version": "1671011689"
+      },
+      {
+        "id": "ld1-1646149545906-1646149825113-0",
+        "title": "Leonardo da Vinci : das Lebensbild eines Genies",
+        "unitCode": "SIL",
+        "type": "edanmdm",
+        "url": "edanmdm:siris_sil_83337",
+        "content": {
+          "freetext": {
+            "date": [
+              {
+                "label": "Date",
+                "content": "1955"
+              }
+            ],
+            "name": [
+              {
+                "label": "Author",
+                "content": "Leonardo da Vinci 1452-1519"
+              },
+              {
+                "label": "Author",
+                "content": "Piantanida, Sandro"
+              },
+              {
+                "label": "Author",
+                "content": "Baroni, Costantino"
+              },
+              {
+                "label": "donor",
+                "content": "Burndy Library DSI"
+              },
+              {
+                "label": "Author",
+                "content": "Mostra di Leonardo da Vinci (1939 : Milan, Italy)"
+              },
+              {
+                "label": "Subject",
+                "content": "Leonardo da Vinci 1452-1519"
+              }
+            ],
+            "notes": [
+              {
+                "label": "Notes",
+                "content": "Translation of Milan. Mostra di Leonardo da Vinci, arranged by Sandro Piantanida and Constantino Baroni, 1939."
+              }
+            ],
+            "dataSource": [
+              {
+                "label": "Data Source",
+                "content": "Smithsonian Libraries"
+              }
+            ],
+            "identifier": [
+              {
+                "label": "Call number",
+                "content": "ND623.L5 L58 G1955"
+              },
+              {
+                "label": "Call number",
+                "content": "ND623.L5L58 G1955"
+              }
+            ],
+            "objectType": [
+              {
+                "label": "Type",
+                "content": "Books"
+              }
+            ],
+            "physicalDescription": [
+              {
+                "label": "Physical description",
+                "content": "516 p., [16] leaves of plates : numerous ill. ; 39 cm"
+              }
+            ]
+          },
+          "indexedStructured": {
+            "date": [
+              "1950s"
+            ],
+            "name": [
+              "Leonardo",
+              "Burndy Library",
+              "Mostra di Leonardo da Vinci",
+              "Baroni, Costantino",
+              "Piantanida, Sandro"
+            ],
+            "language": [
+              "Italian language",
+              "German language"
+            ],
+            "object_type": [
+              "Books"
+            ]
+          },
+          "descriptiveNonRepeating": {
+            "title": {
+              "label": "Title",
+              "content": "Leonardo da Vinci : das Lebensbild eines Genies"
+            },
+            "record_ID": "siris_sil_83337",
+            "unit_code": "SIL",
+            "title_sort": "LEONARDO DA VINCI : DAS LEBENSBILD EINES GENIES",
+            "data_source": "Smithsonian Libraries",
+            "record_link": "https://siris-libraries.si.edu/ipac20/ipac.jsp?&profile=liball&source=~!silibraries&uri=full=3100001~!83337~!0#focus",
+            "metadata_usage": {
+              "text": "",
+              "access": "CC0"
+            }
+          }
+        },
+        "hash": "e0dc88327bcaad918045096c906d2e848cf1bf53",
+        "docSignature": "199896c3648778f344c12aee00f2484e",
+        "timestamp": "1498153881",
+        "lastTimeUpdated": "1661963831",
+        "version": "0"
+      },
+      {
+        "id": "ld1-1687509965193-1687509965196-4",
+        "title": "Leonardo da Vinci the models collection",
+        "unitCode": "SIL",
+        "type": "edanmdm",
+        "url": "edanmdm:siris_sil_1160597",
+        "content": {
+          "freetext": {
+            "date": [
+              {
+                "label": "Date",
+                "content": "2009"
+              }
+            ],
+            "name": [
+              {
+                "label": "Author",
+                "content": "Museo nazionale della scienza e della tecnica \"Leonardo da Vinci.\""
+              },
+              {
+                "label": "Subject",
+                "content": "Léonard de Vinci (1452-1519) Catalogues d'exposition"
+              },
+              {
+                "label": "Subject",
+                "content": "Museo nazionale della scienza e della tecnica \"Leonardo da Vinci\""
+              }
+            ],
+            "topic": [
+              {
+                "label": "Topic",
+                "content": "Machinery--Models"
+              },
+              {
+                "label": "Topic",
+                "content": "Machines--Modèles réduits"
+              }
+            ],
+            "dataSource": [
+              {
+                "label": "Data Source",
+                "content": "Smithsonian Libraries"
+              }
+            ],
+            "objectType": [
+              {
+                "label": "Type",
+                "content": "Catalogs"
+              },
+              {
+                "label": "Type",
+                "content": "Catalogues"
+              }
+            ],
+            "physicalDescription": [
+              {
+                "label": "Physical description",
+                "content": "254 pages chiefly illustrations (some color) 24 cm"
+              }
+            ]
+          },
+          "indexedStructured": {
+            "date": [
+              "2000s"
+            ],
+            "name": [
+              "Leonardo",
+              "Léonard de Vinci",
+              "Museo nazionale della scienza e della tecnica \"Leonardo da Vinci\"",
+              "Museo nazionale della scienza e della tecnica \"Leonardo da Vinci.\""
+            ],
+            "topic": [
+              "Models (representations)",
+              "Modèles réduits",
+              "Machinery"
+            ],
+            "language": [
+              "English language"
+            ],
+            "object_type": [
+              "Catalogs"
+            ]
+          },
+          "descriptiveNonRepeating": {
+            "title": {
+              "label": "Title",
+              "content": "Leonardo da Vinci the models collection"
+            },
+            "record_ID": "siris_sil_1160597",
+            "unit_code": "SIL",
+            "title_sort": "LEONARDO DA VINCI THE MODELS COLLECTION",
+            "data_source": "Smithsonian Libraries",
+            "record_link": "https://siris-libraries.si.edu/ipac20/ipac.jsp?&profile=liball&source=~!silibraries&uri=full=3100001~!1160597~!0#focus",
+            "metadata_usage": {
+              "access": "CC0"
+            }
+          }
+        },
+        "hash": "336966e39a8384e03da6ffb1e5b425222b66e2a4",
+        "docSignature": "4a23987ffc0dfd3c71acf19760767c35",
+        "timestamp": "1687509981",
+        "lastTimeUpdated": "1693225549",
+        "version": "1693212371"
+      },
+      {
+        "id": "ld1-1646149545906-1646150721013-1",
+        "title": "Leonardo da Vinci : a three-dimensional study / Jerome R. Corsi",
+        "unitCode": "SIL",
+        "type": "edanmdm",
+        "url": "edanmdm:siris_sil_746764",
+        "content": {
+          "freetext": {
+            "date": [
+              {
+                "label": "Date",
+                "content": "1995"
+              },
+              {
+                "label": "Date",
+                "content": "C1995"
+              }
+            ],
+            "name": [
+              {
+                "label": "Author",
+                "content": "Corsi, Jerome R"
+              },
+              {
+                "label": "Author",
+                "content": "Leonardo da Vinci 1452-1519"
+              },
+              {
+                "label": "Subject",
+                "content": "Leonardo da Vinci 1452-1519"
+              },
+              {
+                "label": "Subject",
+                "content": "Leonardo da Vinci 1452-1519 Influence"
+              },
+              {
+                "label": "Subject",
+                "content": "Leonardo da Vinci 1452-1519"
+              }
+            ],
+            "notes": [
+              {
+                "label": "Notes",
+                "content": "Cover title."
+              },
+              {
+                "label": "Notes",
+                "content": "Includes pop-up and pull-out pictures which demonstrate anatomical, artistic, scientific and technological experiments as illustrated in Leonardo da Vinci's journals."
+              }
+            ],
+            "topic": [
+              {
+                "label": "Topic",
+                "content": "Toy and movable books"
+              }
+            ],
+            "dataSource": [
+              {
+                "label": "Data Source",
+                "content": "Smithsonian Libraries"
+              }
+            ],
+            "identifier": [
+              {
+                "label": "Call number",
+                "content": "ND623.L5 C67 1995"
+              }
+            ],
+            "objectType": [
+              {
+                "label": "Type",
+                "content": "Specimens"
+              },
+              {
+                "label": "Type",
+                "content": "Notebooks, sketchbooks, etc"
+              }
+            ],
+            "physicalDescription": [
+              {
+                "label": "Physical description",
+                "content": "[12] p. : col. ill. ; 31 cm"
+              }
+            ]
+          },
+          "indexedStructured": {
+            "date": [
+              "1990s"
+            ],
+            "name": [
+              "Leonardo",
+              "Corsi, Jerome R"
+            ],
+            "topic": [
+              "Toy and movable books"
+            ],
+            "language": [
+              "English language"
+            ],
+            "object_type": [
+              "Sketchbooks",
+              "Specimens",
+              "Notebooks"
+            ]
+          },
+          "descriptiveNonRepeating": {
+            "title": {
+              "label": "Title",
+              "content": "Leonardo da Vinci : a three-dimensional study / Jerome R. Corsi"
+            },
+            "record_ID": "siris_sil_746764",
+            "unit_code": "SIL",
+            "title_sort": "LEONARDO DA VINCI : A THREEDIMENSIONAL STUDY JEROME R CORSI",
+            "data_source": "Smithsonian Libraries",
+            "record_link": "https://siris-libraries.si.edu/ipac20/ipac.jsp?&profile=liball&source=~!silibraries&uri=full=3100001~!746764~!0#focus",
+            "metadata_usage": {
+              "text": "",
+              "access": "CC0"
+            }
+          }
+        },
+        "hash": "473da09e73b59eba3dfc3dad312d61f7ccbba636",
+        "docSignature": "9d70aa49a6fa368fc2e9e417a880d8f7",
+        "timestamp": "1498154379",
+        "lastTimeUpdated": "1661976409",
+        "version": "0"
+      },
+      {
+        "id": "ld1-1646149545906-1646149842497-1",
+        "title": "The manuscripts of Leonardo da Vinci in the Institut de France / translated and annotated by John Venerella",
+        "unitCode": "SIL",
+        "type": "edanmdm",
+        "url": "edanmdm:siris_sil_726814",
+        "content": {
+          "freetext": {
+            "date": [
+              {
+                "label": "Date",
+                "content": "1999"
+              },
+              {
+                "label": "Date",
+                "content": "1999-<2003 >"
+              }
+            ],
+            "name": [
+              {
+                "label": "Author",
+                "content": "Leonardo da Vinci 1452-1519"
+              },
+              {
+                "label": "Author",
+                "content": "Venerella, John"
+              },
+              {
+                "label": "Author",
+                "content": "Institut de France"
+              },
+              {
+                "label": "Subject",
+                "content": "Leonardo da Vinci 1452-1519 Manuscripts"
+              },
+              {
+                "label": "Subject",
+                "content": "Leonardo da Vinci Manuscrits"
+              }
+            ],
+            "title": [
+              {
+                "label": "Title",
+                "content": "Leonardo da Vinci"
+              }
+            ],
+            "topic": [
+              {
+                "label": "Topic",
+                "content": "Science"
+              }
+            ],
+            "dataSource": [
+              {
+                "label": "Data Source",
+                "content": "Smithsonian Libraries"
+              }
+            ],
+            "objectType": [
+              {
+                "label": "Type",
+                "content": "Early works to 1800"
+              }
+            ],
+            "physicalDescription": [
+              {
+                "label": "Physical description",
+                "content": "v. <ms. A, ms. B, ms. C, ms. E, ms. F, ms. G, ms. I, ms. L, ms. M > : ill. ; 24 cm"
+              }
+            ]
+          },
+          "indexedStructured": {
+            "date": [
+              "1700s",
+              "1990s"
+            ],
+            "name": [
+              "Leonardo",
+              "Venerella, John",
+              "Institut de France",
+              "Leonardo da Vinci"
+            ],
+            "topic": [
+              "Science"
+            ],
+            "language": [
+              "Italian language",
+              "English language"
+            ]
+          },
+          "descriptiveNonRepeating": {
+            "title": {
+              "label": "Title",
+              "content": "The manuscripts of Leonardo da Vinci in the Institut de France / translated and annotated by John Venerella"
+            },
+            "record_ID": "siris_sil_726814",
+            "unit_code": "SIL",
+            "title_sort": "MANUSCRIPTS OF LEONARDO DA VINCI IN THE INSTITUT DE FRANCE TRANSLATED AND ANNOTATED BY JOHN VENERELLA",
+            "data_source": "Smithsonian Libraries",
+            "record_link": "https://siris-libraries.si.edu/ipac20/ipac.jsp?&profile=liball&source=~!silibraries&uri=full=3100001~!726814~!0#focus",
+            "metadata_usage": {
+              "text": "",
+              "access": "CC0"
+            }
+          }
+        },
+        "hash": "bfd1f271d1f1adb003290658bd56d4e5ee4824a9",
+        "docSignature": "9a7a9edd24d3b2e7cf0917ad492c9ab3",
+        "timestamp": "1498154379",
+        "lastTimeUpdated": "1661975581",
+        "version": "0"
+      },
+      {
+        "id": "ld1-1646149545906-1646150404421-1",
+        "title": "Le gallerie di Leonardo da Vinci nel Museo nazionale della scienza e della tecnica",
+        "unitCode": "SIL",
+        "type": "edanmdm",
+        "url": "edanmdm:siris_sil_324451",
+        "content": {
+          "freetext": {
+            "date": [
+              {
+                "label": "Date",
+                "content": "1963"
+              },
+              {
+                "label": "Date",
+                "content": "[1963]"
+              }
+            ],
+            "name": [
+              {
+                "label": "Author",
+                "content": "Museo nazionale della scienza el della tecnica \"Leonardo da Vinci.\""
+              },
+              {
+                "label": "Subject",
+                "content": "Leonardo da Vinci 1452-1519 Knowledge Science"
+              },
+              {
+                "label": "Subject",
+                "content": "Museo nazionale della scienza el della technica \"Leonardo da Vinci"
+              }
+            ],
+            "notes": [
+              {
+                "label": "Notes",
+                "content": "\"Gennaio, 1963\"--p. 7."
+              }
+            ],
+            "topic": [
+              {
+                "label": "Topic",
+                "content": "Science"
+              },
+              {
+                "label": "Topic",
+                "content": "Inventions"
+              }
+            ],
+            "dataSource": [
+              {
+                "label": "Data Source",
+                "content": "Smithsonian Libraries"
+              }
+            ],
+            "identifier": [
+              {
+                "label": "Call number",
+                "content": "Q143.L5 M98 1963"
+              },
+              {
+                "label": "Call number",
+                "content": "Q143.L5M98 1963"
+              }
+            ],
+            "objectType": [
+              {
+                "label": "Type",
+                "content": "Books"
+              }
+            ],
+            "physicalDescription": [
+              {
+                "label": "Physical description",
+                "content": "103 p. : ill., plans ; 21 cm"
+              }
+            ]
+          },
+          "indexedStructured": {
+            "date": [
+              "1960s"
+            ],
+            "name": [
+              "Leonardo",
+              "Museo nazionale della scienza el della tecnica \"Leonardo da Vinci.\"",
+              "Museo nazionale della scienza el della technica \"Leonardo da Vinci"
+            ],
+            "topic": [
+              "Inventions",
+              "Science"
+            ],
+            "language": [
+              "Italian language"
+            ],
+            "object_type": [
+              "Books"
+            ]
+          },
+          "descriptiveNonRepeating": {
+            "title": {
+              "label": "Title",
+              "content": "Le gallerie di Leonardo da Vinci nel Museo nazionale della scienza e della tecnica"
+            },
+            "record_ID": "siris_sil_324451",
+            "unit_code": "SIL",
+            "title_sort": "GALLERIE DI LEONARDO DA VINCI NEL MUSEO NAZIONALE DELLA SCIENZA E DELLA TECNICA",
+            "data_source": "Smithsonian Libraries",
+            "record_link": "https://siris-libraries.si.edu/ipac20/ipac.jsp?&profile=liball&source=~!silibraries&uri=full=3100001~!324451~!0#focus",
+            "metadata_usage": {
+              "text": "",
+              "access": "CC0"
+            }
+          }
+        },
+        "hash": "d773918cad9831734ac76b03ff186b1608234d02",
+        "docSignature": "f784e8d309c88dd07cf250ea6214d7b0",
+        "timestamp": "1498154099",
+        "lastTimeUpdated": "1661963853",
+        "version": "0"
+      },
+      {
+        "id": "ld1-1646149545906-1646150453717-0",
+        "title": "Le gallerie di Leonardo da Vinci nel Museo nazionale della scienza e della tecnica",
+        "unitCode": "SIL",
+        "type": "edanmdm",
+        "url": "edanmdm:siris_sil_1113294",
+        "content": {
+          "freetext": {
+            "date": [
+              {
+                "label": "Date",
+                "content": "1956"
+              }
+            ],
+            "name": [
+              {
+                "label": "issuing body",
+                "content": "Museo nazionale della scienza e della tecnica \"Leonardo da Vinci\""
+              },
+              {
+                "label": "Subject",
+                "content": "Leonardo da Vinci 1452-1519 Science"
+              },
+              {
+                "label": "Subject",
+                "content": "Museo nazionale della scienza e della tecnica \"Leonardo da Vinci.\""
+              }
+            ],
+            "notes": [
+              {
+                "label": "Notes",
+                "content": "Preface dated 1956"
+              },
+              {
+                "label": "Notes",
+                "content": "SCDIRB copy (39088016471781) in original printed wrappers."
+              }
+            ],
+            "topic": [
+              {
+                "label": "Topic",
+                "content": "Science"
+              },
+              {
+                "label": "Topic",
+                "content": "Inventions"
+              }
+            ],
+            "dataSource": [
+              {
+                "label": "Data Source",
+                "content": "Smithsonian Libraries"
+              }
+            ],
+            "identifier": [
+              {
+                "label": "Call number",
+                "content": "Q143.L5 M53 1956"
+              }
+            ],
+            "objectType": [
+              {
+                "label": "Type",
+                "content": "Books"
+              }
+            ],
+            "physicalDescription": [
+              {
+                "label": "Physical description",
+                "content": "135, [1] pages : illustrations ; 21 cm"
+              }
+            ]
+          },
+          "indexedStructured": {
+            "date": [
+              "1950s"
+            ],
+            "name": [
+              "Leonardo",
+              "Museo nazionale della scienza e della tecnica \"Leonardo da Vinci\"",
+              "Museo nazionale della scienza e della tecnica \"Leonardo da Vinci.\""
+            ],
+            "topic": [
+              "Inventions",
+              "Science"
+            ],
+            "language": [
+              "Italian language"
+            ],
+            "object_type": [
+              "Books"
+            ]
+          },
+          "descriptiveNonRepeating": {
+            "title": {
+              "label": "Title",
+              "content": "Le gallerie di Leonardo da Vinci nel Museo nazionale della scienza e della tecnica"
+            },
+            "record_ID": "siris_sil_1113294",
+            "unit_code": "SIL",
+            "title_sort": "GALLERIE DI LEONARDO DA VINCI NEL MUSEO NAZIONALE DELLA SCIENZA E DELLA TECNICA",
+            "data_source": "Smithsonian Libraries",
+            "record_link": "https://siris-libraries.si.edu/ipac20/ipac.jsp?&profile=liball&source=~!silibraries&uri=full=3100001~!1113294~!0#focus",
+            "metadata_usage": {
+              "text": "",
+              "access": "CC0"
+            }
+          }
+        },
+        "hash": "2f3c29a43181f358cc1ff16b51563807fd6eb91a",
+        "docSignature": "d6e59a064b1a577cfd63369779075cc7",
+        "timestamp": "1570522225",
+        "lastTimeUpdated": "1661961635",
+        "version": "0"
+      },
+      {
+        "id": "ld1-1646149545906-1646149997749-0",
+        "title": "Leonardo da Vinci, engineer and architect",
+        "unitCode": "SIL",
+        "type": "edanmdm",
+        "url": "edanmdm:siris_sil_343641",
+        "content": {
+          "freetext": {
+            "date": [
+              {
+                "label": "Date",
+                "content": "1987"
+              }
+            ],
+            "name": [
+              {
+                "label": "Author",
+                "content": "Galluzzi, Paolo"
+              },
+              {
+                "label": "Author",
+                "content": "Montreal Museum of Fine Arts"
+              },
+              {
+                "label": "Subject",
+                "content": "Leonardo da Vinci 1452-1519 Manuscripts"
+              },
+              {
+                "label": "Subject",
+                "content": "Leonardo da Vinci 1452-1519 Knowledge Engineering"
+              },
+              {
+                "label": "Subject",
+                "content": "Leonardo da Vinci 1452-1519 Knowledge Mechanics"
+              },
+              {
+                "label": "Subject",
+                "content": "Leonardo da Vinci 1452-1519 Knowledge Architecture"
+              }
+            ],
+            "notes": [
+              {
+                "label": "Notes",
+                "content": "\"Published for the exhibition Leonardo da Vinci, engineer and architect, presented at the Montreal Museum of Fine Arts from May 22 to November 8, 1987\"--T.p. verso."
+              },
+              {
+                "label": "Notes",
+                "content": "Edited by Paolo Galluzzi."
+              }
+            ],
+            "place": [
+              {
+                "label": "Place",
+                "content": "Italy"
+              }
+            ],
+            "topic": [
+              {
+                "label": "Topic",
+                "content": "Engineering"
+              },
+              {
+                "label": "Topic",
+                "content": "Architecture"
+              }
+            ],
+            "dataSource": [
+              {
+                "label": "Data Source",
+                "content": "Smithsonian Libraries"
+              }
+            ],
+            "identifier": [
+              {
+                "label": "Call number",
+                "content": "T40.L46 L58 1987"
+              },
+              {
+                "label": "Call number",
+                "content": "T40.L46L58 1987"
+              }
+            ],
+            "objectType": [
+              {
+                "label": "Type",
+                "content": "Exhibitions"
+              }
+            ],
+            "physicalDescription": [
+              {
+                "label": "Physical description",
+                "content": "xv, 352 p. : ill. (some col.) ; 32 cm"
+              }
+            ]
+          },
+          "indexedStructured": {
+            "date": [
+              "1980s"
+            ],
+            "name": [
+              "Leonardo",
+              "Galluzzi, Paolo",
+              "Montreal Museum of Fine Arts"
+            ],
+            "place": [
+              "Italy"
+            ],
+            "topic": [
+              "Engineering",
+              "Architecture"
+            ],
+            "language": [
+              "English language"
+            ],
+            "object_type": [
+              "Exhibitions (events)"
+            ]
+          },
+          "descriptiveNonRepeating": {
+            "title": {
+              "label": "Title",
+              "content": "Leonardo da Vinci, engineer and architect"
+            },
+            "record_ID": "siris_sil_343641",
+            "unit_code": "SIL",
+            "title_sort": "LEONARDO DA VINCI ENGINEER AND ARCHITECT",
+            "data_source": "Smithsonian Libraries",
+            "record_link": "https://siris-libraries.si.edu/ipac20/ipac.jsp?&profile=liball&source=~!silibraries&uri=full=3100001~!343641~!0#focus",
+            "metadata_usage": {
+              "access": "CC0"
+            }
+          }
+        },
+        "hash": "44bc2010928f8cfff2bda736b4d44c468bba2bb4",
+        "docSignature": "ee0b1f2635955fdc151bb5563e356eb0",
+        "timestamp": "1617005550",
+        "lastTimeUpdated": "1686906216",
+        "version": "1686905156"
+      },
+      {
+        "id": "ld1-1646149545906-1646150873924-1",
+        "title": "Le gallerie di Leonardo da Vinci nel Museo nazionale della scienza e della tecnica",
+        "unitCode": "SIL",
+        "type": "edanmdm",
+        "url": "edanmdm:siris_sil_256531",
+        "content": {
+          "freetext": {
+            "date": [
+              {
+                "label": "Date",
+                "content": "1956"
+              },
+              {
+                "label": "Date",
+                "content": "[pref. 1956]"
+              }
+            ],
+            "name": [
+              {
+                "label": "Author",
+                "content": "Museo nazionale della scienza e della tecnica \"Leonardo da Vinci\""
+              },
+              {
+                "label": "Subject",
+                "content": "Leonardo da Vinci 1452-1519"
+              }
+            ],
+            "topic": [
+              {
+                "label": "Topic",
+                "content": "Science"
+              },
+              {
+                "label": "Topic",
+                "content": "Inventions"
+              }
+            ],
+            "dataSource": [
+              {
+                "label": "Data Source",
+                "content": "Smithsonian Libraries"
+              }
+            ],
+            "identifier": [
+              {
+                "label": "Call number",
+                "content": "Q143.L5M53X"
+              }
+            ],
+            "objectType": [
+              {
+                "label": "Type",
+                "content": "Books"
+              }
+            ],
+            "physicalDescription": [
+              {
+                "label": "Physical description",
+                "content": "134 p. illus. 21 cm"
+              }
+            ]
+          },
+          "indexedStructured": {
+            "date": [
+              "1950s"
+            ],
+            "name": [
+              "Leonardo",
+              "Museo nazionale della scienza e della tecnica \"Leonardo da Vinci\""
+            ],
+            "topic": [
+              "Inventions",
+              "Science"
+            ],
+            "language": [
+              "Italian language"
+            ],
+            "object_type": [
+              "Books"
+            ]
+          },
+          "descriptiveNonRepeating": {
+            "title": {
+              "label": "Title",
+              "content": "Le gallerie di Leonardo da Vinci nel Museo nazionale della scienza e della tecnica"
+            },
+            "record_ID": "siris_sil_256531",
+            "unit_code": "SIL",
+            "title_sort": "GALLERIE DI LEONARDO DA VINCI NEL MUSEO NAZIONALE DELLA SCIENZA E DELLA TECNICA",
+            "data_source": "Smithsonian Libraries",
+            "record_link": "https://siris-libraries.si.edu/ipac20/ipac.jsp?&profile=liball&source=~!silibraries&uri=full=3100001~!256531~!0#focus",
+            "metadata_usage": {
+              "text": "",
+              "access": "CC0"
+            }
+          }
+        },
+        "hash": "f241130f924d29521134f69c2c5d948acd563d87",
+        "docSignature": "035f625ae0661709aec2d9c005fd600a",
+        "timestamp": "1498154026",
+        "lastTimeUpdated": "1661962083",
+        "version": "0"
+      },
+      {
+        "id": "sro-1663946979444-1663946995870-2",
+        "title": "An Extraordinary Journey: The History of Leonardo da Vinci&#39;s Codex on the Flight of Birds",
+        "unitCode": "SLA_SRO",
+        "type": "edanmdm",
+        "url": "edanmdm:slasro_117449",
+        "content": {
+          "freetext": {
+            "date": [
+              {
+                "label": "Year",
+                "content": "2013"
+              }
+            ],
+            "name": [
+              {
+                "label": "Author",
+                "content": "Jakab, Peter L."
+              }
+            ],
+            "notes": [
+              {
+                "label": "Citation",
+                "content": "Jakab, Peter L. 2013. \"<a href=\"http://blog.nasm.si.edu/exhibitions/an-extraordinary-journey-the-history-of-leonardo-da-vincis-codex-on-the-flight-of-birds/\">An Extraordinary Journey: The History of Leonardo da Vinci&#39;s Codex on the Flight of Birds</a>.\" <em>AIRSPACE BLOG: Behind the Scenes at the National Air and Space Museum</em> Washington, DC: Smithsonian National Air and Space Museum. Sep 13, 2013. <a href=\"http://blog.nasm.si.edu/exhibitions/an-extraordinary-journey-the-history-of-leonardo-da-vincis-codex-on-the-flight-of-birds/\">http://blog.nasm.si.edu/exhibitions/an-extraordinary-journey-the-history-of-leonardo-da-vincis-codex-on-the-flight-of-birds/</a>."
+              }
+            ],
+            "dataSource": [
+              {
+                "label": "Data source",
+                "content": "Smithsonian Libraries and Archives"
+              }
+            ],
+            "identifier": [
+              {
+                "label": "Identifier",
+                "content": "117449"
+              }
+            ],
+            "objectType": [
+              {
+                "label": "Object Type",
+                "content": "Smithsonian staff publication"
+              }
+            ]
+          },
+          "indexedStructured": {
+            "date": [
+              "2010s"
+            ],
+            "name": [
+              {
+                "type": "author",
+                "content": "Jakab, Peter L."
+              }
+            ],
+            "object_type": [
+              "Blog",
+              "Smithsonian staff publications"
+            ]
+          },
+          "descriptiveNonRepeating": {
+            "title": {
+              "label": "Title",
+              "content": "An Extraordinary Journey: The History of Leonardo da Vinci&#39;s Codex on the Flight of Birds"
+            },
+            "record_ID": "slasro_117449",
+            "unit_code": "SLA_SRO",
+            "title_sort": "AN EXTRAORDINARY JOURNEY: THE HISTORY OF LEONARDO DA VINCI&#39;S CODEX ON THE FLIGHT OF BIRDS",
+            "data_source": "Smithsonian Libraries and Archives",
+            "record_link": "http://blog.nasm.si.edu/exhibitions/an-extraordinary-journey-the-history-of-leonardo-da-vincis-codex-on-the-flight-of-birds/",
+            "metadata_usage": {
+              "access": "CC0"
+            }
+          }
+        },
+        "hash": "e72d71e1a6f4d93f22762be26de1ecb51acc39d8",
+        "docSignature": "4512cec641d979ea805ce17d3a33d7d8",
+        "timestamp": "1663956050",
+        "lastTimeUpdated": "1671011753",
+        "version": "1671011689"
+      }
+    ],
+    "facets": {},
+    "rowCount": 369,
+    "message": "content found"
+  }
+}

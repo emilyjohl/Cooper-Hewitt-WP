@@ -8,33 +8,56 @@
 
 if (!defined('ABSPATH')) exit;
 
-add_shortcode("show_message", "sp_show_static_message");
+function plugin_enqueue_scripts() {
+  // Grab api key set in yaml file
+  $api_key = getenv('API_KEY');
 
-function sp_show_static_message(){
-  return "<p style='color:red;'>hello world, shortcode test</p>"; 
+  // Connect to JS file
+  wp_enqueue_script('api-plugin-js', plugin_dir_url(__FILE__) . 'js/api-plugin.js', array('jquery'), null, true);
+  
+  wp_localize_script('api-plugin-js', 'myApiPlugin', array(
+      'api_key' => $api_key,
+      'ajaxurl' => admin_url('admin-ajax.php')
+  ));
 }
+add_action('wp_enqueue_scripts', 'plugin_enqueue_scripts');
 
-add_shortcode("show_input", "sp_show_input_fields");
-
-
-function sp_show_input_fields(){
+function my_api_plugin_fetch_data() {
+  // Display input querey boxes and the response container
   ob_start();
   ?>
-    <form id="my-custom-form">
-        <input type="text" id="input1" name="input1" placeholder="Enter value 1" required />
-        <input type="text" id="input2" name="input2" placeholder="Enter value 2" required />
-        <button type="submit" onclick="displayFields()">Submit</button>
+  <div id=quereyContainer>
+    <form>
+      <input type="text" id="search" name="search" placeholder="Search something" required />
+      <!-- <div class="dropdownContainer" id='dropdownContainer'>
+        <button id=sort className="dropdownButton">Select Sort Style</button>
+        <div className="choiceContainer">
+          <div class="choice">
+            <p id="relevancy">Relevancy</p>
+          </div>
+          <div class="choice" onClick= >
+            <p id="newest">Newest</p>
+          </div>
+          <div class="choice" onClick= >
+            <p id="updated">Updated</p>
+          </div>
+        </div>
+      </div> -->
+      <button aria-haspopup="true" aria-expanded="false" id="sortByMenuButton">Sort By</button>
+        <ul id="sortBy" role="menu" hidden>
+          <li role="menuitem" tabindex="-1">Relevancy</li>
+          <li role="menuitem" tabindex="-1">Newest</li>
+          <li role="menuitem" tabindex="-1">Random</li>
+        </ul>
+      <button type="submit" id="fetchDataButton">Submit</button>
     </form>
-    <script type="text/javascript">
-      function displayFields(){
-        event.preventDefault()
-        console.log('hello world')
-        const text1 = document.querySelector('#input1').value
-        const text2 = document.querySelector('#input2').value
-        console.log('text1', text1, 'text2', text2)
-      }
+    <div id="apiResponseContainer">
+        <p>Click the button to load data.</p>
+    </div>
 
-    </script>
+  </div>
   <?php
   return ob_get_clean();
 }
+
+add_shortcode('my_api_plugin', 'my_api_plugin_fetch_data');

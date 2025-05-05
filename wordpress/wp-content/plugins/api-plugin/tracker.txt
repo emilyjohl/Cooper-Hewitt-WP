@@ -1,0 +1,8 @@
+[x] make api call
+[x] edit api call for sort and subject
+[x] key down dropdown menu for sort
+[x] display information from api call
+[x] error handling for not clicking a sort
+[x] error handling if something you type yeilds no results
+[] edit info displayed for api call
+[] fix double click bug on dropdown
