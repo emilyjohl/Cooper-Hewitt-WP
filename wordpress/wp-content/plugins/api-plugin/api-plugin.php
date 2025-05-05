@@ -11,7 +11,7 @@ if (!defined('ABSPATH')) exit;
 add_shortcode("show_message", "sp_show_static_message");
 
 function sp_show_static_message(){
-  return "<p style='color:red;'>hello world, shortcode test</p>";
+  return "<p style='color:red;'>hello world, shortcode test</p>"; 
 }
 
 add_shortcode("show_input", "sp_show_input_fields");
