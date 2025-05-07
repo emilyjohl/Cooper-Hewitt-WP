@@ -21,8 +21,19 @@ jQuery(document).ready(function($) {
             if(response.response.rowCount <= 0){
               $('#apiResponseContainer').html('<h3>' + response.response.message + '</h3>');
             }else {
-              console.log('the response', response)
-              $('#apiResponseContainer').html('<h3>' + response.response.rows[0].title + '</h3>');
+              console.log('the response', response.response.rows[0])
+              const title = response.response.rows[0].content.descriptiveNonRepeating.title.content;
+              const dataSource = response.response.rows[0].content.descriptiveNonRepeating.data_source
+              const link = response.response.rows[0].content.descriptiveNonRepeating.record_link
+              const objectTypes = response.response.rows[0].content.indexedStructured.object_type
+              console.log('types',objectTypes)
+              $('#apiResponseContainer').html(`<h3>${title}</h3><p>${dataSource}</p>`)
+              objectTypes.forEach(type => {
+                $('#apiResponseContainer').append(`
+                  <i>${type},</i>
+                `)
+              })
+              $('#apiResponseContainer').append(`<a href="${link}" target='_blank'>Click here to learn more!</a>`)
             }
           },
           error: function() {
@@ -35,7 +46,7 @@ jQuery(document).ready(function($) {
   const sortByMenuButton = document.getElementById('sortByMenuButton');
   const sortBy = document.getElementById('sortBy');
   const sortByOptions = document.querySelectorAll('li')
-  const sort = document.getElementById('sort')
+  // const sort = document.getElementById('sort')
 
   sortByMenuButton.addEventListener('click', (e) => {
     e.preventDefault();
