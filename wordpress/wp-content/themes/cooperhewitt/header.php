@@ -10,11 +10,19 @@
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         const menuToggle = document.getElementById('menu-toggle');
-        const mainMenu = document.getElementById('main-menu');
+        const mainMenu = document.getElementById('expanded-main-menu');
         
         menuToggle.addEventListener('click', function() {
             mainMenu.classList.toggle('show');
         });
+    });
+
+    window.addEventListener('scroll', function () {
+      console.log('scrolled')
+      const mainMenu = document.getElementById('expanded-main-menu');
+        if (mainMenu.classList.contains('show')) {
+        mainMenu.classList.remove('show');
+      }
     });
     </script>
 
@@ -30,7 +38,8 @@
       </div>
     </nav>
     <!-- Main Menu that will appear as dropdown -->
-    <div id="main-menu" class="main-menu">
+    <div id="expanded-main-menu" class="main-menu">
+      <img id="expanded-nav-logo" src="<?php my_theme_asset_url_e( '/assets/logos/CH_logo-print_white.png' ); ?>" alt="Cooper Hewitt Logo">
         <?php
         wp_nav_menu([
             'theme_location' => 'primary',
