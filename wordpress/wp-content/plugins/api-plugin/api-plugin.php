@@ -37,9 +37,9 @@ function my_api_plugin_fetch_data() {
         <input type="text" id="search" name="search" placeholder="Ex. Andy Warhol" required />
         <button class="form-button" aria-haspopup="true" aria-expanded="false" id="sort-by-menu-button">Sort By</button>
           <ul id="sort-by" role="menu" hidden>
-            <li role="menuitem" tabindex="-1">Relevancy</li>
-            <li role="menuitem" tabindex="-1">Newest</li>
-            <li role="menuitem" tabindex="-1">Random</li>
+            <li role="menuitem" tabindex="0">Relevancy</li>
+            <li role="menuitem" tabindex="0">Newest</li>
+            <li role="menuitem" tabindex="0">Random</li>
           </ul>
         <button class="form-button" type="submit" id="fetch-data-button">Submit</button>
       </form>
