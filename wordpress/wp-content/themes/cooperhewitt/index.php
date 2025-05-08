@@ -6,7 +6,7 @@
     <div class="title-wrapper">
       <h1 id="overlay-text">Search our Database</h1>
     </div>
-    <img id="background-image" src="https://www.cooperhewitt.org/wp-content/uploads/2014/05/Library_2001-1-e1456859803880.jpg" alt="">
+    <img id="background-image" src="https://www.cooperhewitt.org/wp-content/uploads/2014/05/Library_2001-1-e1456859803880.jpg" alt="Image of Students at the Library">
   </div>
   <div>
   <?php
