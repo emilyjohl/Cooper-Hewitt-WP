@@ -1,0 +1,24 @@
+/*
+Theme Name: Custom CH Theme
+Author: Emily Johl
+Version: 1.0
+*/
+
+@font-face {
+  font-family: CooperHewitt-Book;
+  src: url("../assets/typefaces/CooperHewitt-Book.otf") format("opentype")
+}
+
+* {
+  font-family: 'CooperHewitt-Book';
+  color: red;
+}
+
+#nav-logo {
+  height: 150px;
+}
+
+nav {
+  color: white;
+  background-color: black;
+}

@@ -22,40 +22,33 @@ function plugin_enqueue_scripts() {
 }
 add_action('wp_enqueue_scripts', 'plugin_enqueue_scripts');
 
+
 function my_api_plugin_fetch_data() {
   // Display input querey boxes and the response container
   ob_start();
   ?>
-  <div id=quereyContainer>
-    <form>
-      <input type="text" id="search" name="search" placeholder="Search something" required />
-      <!-- <div class="dropdownContainer" id='dropdownContainer'>
-        <button id=sort className="dropdownButton">Select Sort Style</button>
-        <div className="choiceContainer">
-          <div class="choice">
-            <p id="relevancy">Relevancy</p>
-          </div>
-          <div class="choice" onClick= >
-            <p id="newest">Newest</p>
-          </div>
-          <div class="choice" onClick= >
-            <p id="updated">Updated</p>
-          </div>
-        </div>
-      </div> -->
-      <button aria-haspopup="true" aria-expanded="false" id="sortByMenuButton">Sort By</button>
-        <ul id="sortBy" role="menu" hidden>
-          <li role="menuitem" tabindex="-1">Relevancy</li>
-          <li role="menuitem" tabindex="-1">Newest</li>
-          <li role="menuitem" tabindex="-1">Random</li>
-        </ul>
-      <button type="submit" id="fetchDataButton">Submit</button>
-    </form>
-    <div id="apiResponseContainer">
-        <p>Click the button to load data.</p>
+  <div class="querey-container">
+      <div class="flexbox-child" id="subheading-container">
+        <h2 class="subheading">Search for an Item</h2>
+        <p class="search-ideas">Search an Artist, Science Term, Object, or Article</p>
+      </div>
+      <div class="divider"></div>
+      <form class="flexbox-child">
+        <input type="text" id="search" name="search" placeholder="Ex. Andy Warhol" required />
+        <button class="form-button" aria-haspopup="true" aria-expanded="false" id="sort-by-menu-button">Sort By</button>
+          <ul id="sort-by" role="menu" hidden>
+            <li role="menuitem" tabindex="-1">Relevancy</li>
+            <li role="menuitem" tabindex="-1">Newest</li>
+            <li role="menuitem" tabindex="-1">Random</li>
+          </ul>
+        <button class="form-button" type="submit" id="fetch-data-button">Submit</button>
+      </form>
     </div>
-
-  </div>
+    </div>
+    <div id="api-response-container">
+        <div id="object-type-container"></div>
+        <p>Submit a querey to load data</p>
+    </div>
   <?php
   return ob_get_clean();
 }

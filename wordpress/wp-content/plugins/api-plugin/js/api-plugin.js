@@ -1,9 +1,10 @@
 jQuery(document).ready(function($) {
   // Makes the call when the button is clicked NEED TO ADD ON SUBMIT TOO
-  $('#fetchDataButton').click(function(e) {
+  $('#fetch-data-button').click(function(e) {
     e.preventDefault()
     const search = document.querySelector('#search').value;
-    let sort = document.querySelector('#sortByMenuButton').innerText;
+    const objectTypeContainer = document.querySelector('#object-type-container');
+    let sort = document.querySelector('#sort-by-menu-button').innerText;
     sort = sort.toLowerCase()
 
     // Fallback if sort is not clicked
@@ -19,7 +20,7 @@ jQuery(document).ready(function($) {
           success: function(response) {
             // Display data into the response container
             if(response.response.rowCount <= 0){
-              $('#apiResponseContainer').html('<h3>' + response.response.message + '</h3>');
+              $('#apiResponse-container').html('<h3>' + response.response.message + '</h3>');
             }else {
               console.log('the response', response.response.rows[0])
               const title = response.response.rows[0].content.descriptiveNonRepeating.title.content;
@@ -27,24 +28,24 @@ jQuery(document).ready(function($) {
               const link = response.response.rows[0].content.descriptiveNonRepeating.record_link
               const objectTypes = response.response.rows[0].content.indexedStructured.object_type
               console.log('types',objectTypes)
-              $('#apiResponseContainer').html(`<h3>${title}</h3><p>${dataSource}</p>`)
+              $('#api-response-container').html(`<h3>${title}</h3><p>${dataSource}</p>`)
               objectTypes.forEach(type => {
-                $('#apiResponseContainer').append(`
-                  <i>${type},</i>
+                $('#api-response-container').append(`
+                    <span class="object-type">${type},</span>
                 `)
               })
-              $('#apiResponseContainer').append(`<a href="${link}" target='_blank'>Click here to learn more!</a>`)
+              $('#api-response-container').append(`<a class="learn-more-link" href="${link}" target='_blank'>Click here to learn more!</a>`)
             }
           },
           error: function() {
             // Error handling for failed fetch
-            $('#apiResponseContainer').html('<p>Failed to fetch data.</p>');
+            $('#api-response-container').html('<p>Failed to fetch data.</p>');
           }
       });
   });
 
-  const sortByMenuButton = document.getElementById('sortByMenuButton');
-  const sortBy = document.getElementById('sortBy');
+  const sortByMenuButton = document.getElementById('sort-by-menu-button');
+  const sortBy = document.getElementById('sort-by');
   const sortByOptions = document.querySelectorAll('li')
   // const sort = document.getElementById('sort')
 

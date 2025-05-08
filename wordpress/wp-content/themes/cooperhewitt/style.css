@@ -1,0 +1,246 @@
+/*
+Theme Name: Custom CH Theme
+Author: Emily Johl
+Version: 1.0
+Description: Custom Theme for Cooper Hewitt interview
+*/
+
+@font-face {
+  font-family: CooperHewitt-Book;
+  src: url("assets/typefaces/CooperHewitt-Book.otf") format("opentype")
+}
+
+@font-face {
+  font-family: CooperHewitt-Bold;
+  src: url("assets/typefaces/CooperHewitt-Bold.otf") format("opentype")
+}
+
+@font-face {
+  font-family: CooperHewitt-BoldItalic;
+  src: url("assets/typefaces/CooperHewitt-BoldItalic.otf") format("opentype")
+}
+
+@font-face {
+  font-family: CooperHewitt-BookItalic;
+  src: url("assets/typefaces/CooperHewitt-BookItalic.otf") format("opentype")
+}
+
+@font-face {
+  font-family: CooperHewitt-Bold;
+  src: url("assets/typefaces/CooperHewitt-Bold.otf") format("opentype")
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: 'CooperHewitt-Book', sans-serif;
+}
+
+h1, 
+h2,
+h3,
+h4 {
+  font-family: 'CooperHewitt-Bold', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#nav-logo {
+  height: 50px;
+}
+
+nav {
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 8%;
+}
+
+h4 {
+  font-size: 20px;
+  height: 20px;
+}
+
+svg {
+  margin: 0;
+  padding: 0;
+}
+
+.minimized-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media only screen and (max-width: 980px) {
+  h4,
+  h1{
+    display: none;
+  }
+}
+
+.title-wrapper {
+  padding-top: 25px;
+  padding-right: 10px;
+  position: absolute;
+  width: 100%;
+  height: 360px;
+  margin-bottom: 15px;
+}
+
+.background-image-container {
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+#background-image {
+  width: 100%;
+  z-index: 2;
+  display: relative;
+}
+
+#overlay-text {
+  background: #ffdd35;
+  box-shadow: 5px 0 0 #ffdd35, -5px 0 0 #ffdd35;
+  color: #000000CC;
+  width: fit-content;
+  margin-left: 25px;
+}
+
+.querey-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5%;
+  flex: 45% 1px 55%;
+}
+
+.subheading {
+  background: #FF5700;
+  box-shadow: 5px 0 0 #FF5700, -5px 0 0 #FF5700;
+  color: #000000CC;
+  width: fit-content;
+  height: fit-content;
+  /* margin-left: 25px; */
+}
+
+.search-ideas {
+  margin-top: 5%;
+  font-family: CooperHewitt-BookItalic, sans-serif;
+}
+
+.divider {
+  width: 1px;
+  background-color: #000000CC;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30%;
+  height: 30%;
+}
+
+input{
+  padding: 1em;
+  border: 1px solid black;
+}
+
+.form-button {
+  padding: 1em;
+  margin-top: 5%;
+  border: 1px solid black;
+}
+
+
+
+#api-response-container {
+  border-top: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+  width: 60%;
+  padding-top: 25px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.learn-more-link {
+  font-family: CooperHewitt-BoldItalic, sans-serif;
+  color: #FF5700;
+}
+
+i {
+  /* display: flex;
+  flex-direction: row; */
+  font-family: CooperHewitt-BookItalic, sans-serif;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+  min-height: 250px;
+}
+
+
+
+
+
+.minimized-menu {
+  display: flex;
+  align-items: center;
+}
+
+#menu-title {
+  color: white;
+  margin-right: 10px;
+}
+
+#menu-toggle {
+  cursor: pointer;
+}
+
+.main-menu {
+  display: none;
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+  position: absolute;
+  top: 60px; 
+  left: 0;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list li {
+  padding: 10px;
+  text-align: center;
+}
+
+.menu-list li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+
+.main-menu.show {
+  display: flex;
+}
