@@ -1,4 +1,4 @@
-This is the code assessment for the Jr. Developer role with the Cooper Hewitt Digital Team, April 2025.
+
 
 # Overview
 
