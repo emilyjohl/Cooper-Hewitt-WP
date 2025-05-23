@@ -144,6 +144,15 @@ svg {
   color: #FF46AF; 
 }
 
+.menu-list li:has(a:focus) {
+  border-top: 2px solid #FF46AF;
+}
+
+.menu-list a:focus {
+  color: #FF46AF;
+  outline: none;
+}
+
 #expanded-main-menu.show {
   display: flex;
 }
@@ -347,24 +356,54 @@ footer {
 
 .footer-menu{
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 1rem; 
   padding: 2% 10%;
 }
 
-.footer-menu > li {
+.footer-group {
   font-family: 'CooperHewitt-Bold', sans-serif;
   font-size: 13px;
   text-align: start;
   display: flex;
   flex-direction: column;
   border-top: 2px solid white;
+  padding: 2px 0;
 }
 
-.footer-menu a {
+.footer-group li{
   color: white;
   text-decoration: none;
   display: block;
   font-size: smaller;
   padding: 2px;
+}
+
+.socials-and-sdm-logo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10% 3%;
+}
+
+#sdm-logo {
+  height: 15px;
+}
+
+@media only screen and (max-width: 655px) {
+  .footer-menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem; 
+    padding: 2% 10%;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .footer-menu{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem; 
+    padding: 2% 10%;
+  }
 }
